@@ -1,3 +1,5 @@
+// npm install node-fetch
+// npm init -y
 // -------------------------------EXO DE VIBE REECRITURE DE CODE----------------------------
 
 // var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
@@ -12,11 +14,9 @@
 // req.onload  = reqListener;
 // req.send(null);
 
-// ------------------------------------NEW ECRITURE------------------------------
+// // ------------------------------------NEW ECRITURE------------------------------
+// const fetch = require('node-fetch');
 
-
-const fetch = require('node-fetch');
-
-fetch('https://www.affirmations.dev')
-    .then(res => res.text())
-    .then(text => console.log(text))
+// fetch('https://www.affirmations.dev')
+//     .then(res => res.text())
+//     .then(text => console.log(text));
